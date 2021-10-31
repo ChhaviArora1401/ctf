@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 29, 2021 at 06:50 PM
--- Server version: 10.4.20-MariaDB
--- PHP Version: 7.3.29
+-- Generation Time: Oct 31, 2021 at 01:05 PM
+-- Server version: 10.4.21-MariaDB
+-- PHP Version: 8.0.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -32,16 +32,16 @@ CREATE TABLE `users` (
   `user` varchar(255) DEFAULT NULL,
   `pass` varchar(100) DEFAULT NULL,
   `email` varchar(255) DEFAULT NULL,
-  `profile_photo` varchar(200) DEFAULT NULL
+  `type` varchar(10) NOT NULL DEFAULT 'user'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`uid`, `user`, `pass`, `email`, `profile_photo`) VALUES
-(1, 'lucky', 'e10adc3949ba59abbe56e057f20f883e', 'lucky@phpzag.com', NULL),
-(3, 'phpzag', 'e10adc3949ba59abbe56e057f20f883e', 'test@phpzag.com', NULL);
+INSERT INTO `users` (`uid`, `user`, `pass`, `email`, `type`) VALUES
+(1, 'boss', 'v@@Alb$5', 'boss@techday.com', 'admin'),
+(3, 'test', 'test', 'test@test.com', 'user');
 
 --
 -- Indexes for dumped tables
