@@ -1,0 +1,79 @@
+.bg-1 {
+    background-image: url('https://files.wallpaperpass.com/2019/09/8k%20wallpaper%20041%20-%205120x2880.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.bg-2 {
+    background-image: url('img/h.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+#hint-img {
+    width: 100%;
+    height: 90vh;
+    margin-left:auto;
+    margin-right:auto;
+    background-image: url('img/b.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.col-md-4.col-md-offset-4.well {
+    background: #b5c5c373;
+    text-align: center;
+    margin-top: 16%;
+    border-radius: 13px;
+    border: none;
+}
+
+a, a:focus, a:active, a:hover{
+    color: white;
+    outline: none;
+}
+
+legend {
+    border: none;
+}
+
+input.btn.btn-primary, input.btn.btn-primary:focus, input.btn.btn-primary:active, input.btn.btn-primary:hover {
+    background: #008b8b61;
+    border: none;
+}
+
+.hide-i {
+    color: transparent;
+    padding-top: 40%;
+    padding-left: 50%;
+    position: absolute;
+}
+
+.hide-p {
+    color: transparent;
+    position: absolute;
+    padding-top: 22%;
+    padding-left: 34%;
+}
+
+.center {
+    width: 100%;
+    margin: 6% 0 0 164%;
+}
+
+li a {
+    color: black;
+    background: #1d222263;
+}
