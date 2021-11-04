@@ -1,2 +1,2 @@
 # symmetrical-umbrella
-Link: kkkkkkkkkkkkkkkkkkkk.rf.gd .
+Link: kkkkkkkkkkkkkkkkkkkk.rf.gd
