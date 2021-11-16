@@ -1,2 +1,2 @@
 # symmetrical-umbrella
-Link: http://cake-bake.rf.gd/
+Link: http://cake-bake.rf.gd/ .
